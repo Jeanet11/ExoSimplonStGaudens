@@ -1,5 +1,8 @@
 body {
 	background-color: #222222;
+	margin: 0;
+	padding: 0;
+	color: white;
 }
 
 
@@ -7,30 +10,33 @@ li {
 	list-style: none;
 }
 
-.header {
+header {
 	display: flex;
-	flex-flow: row nowrap;
+	justify-content: space-between;
+	align-items: center;
 	background-color: #333333;
 	border: 1px solid green;
-
-
+	height:10vh;
 }
 
-.header img {
-
-
-	height: 50px ;
+header img {
+	height: 50px;
 	width: auto;
 	border-style: groove;
-	
 }
-
+main {
+	height: 80vh;
+}
 .logo{
 	width: 50%;
-
 }
 
-
+.links{
+	display: flex;
+	justify-content: space-between;
+	width: 10vw;
+	margin: 0% 5% 0 5%;
+}
 .hyrule {
 	display: flex;
 	justify-content: space-around;
@@ -45,31 +51,55 @@ li {
 	text-decoration: none;
 	
 }
+.scroll{
+		width: 60%;
+}
+.scroll ul{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
 
+}
 .barre-haut{
 	display: flex;
-	justify-content: center;
-}
-
-.scroll {
-	overflow: scroll;
+	justify-content: space-around;
+	width: 50%;
+	margin:1% 0 0 25%;
 }
 
 .container{
 	display: flex;
-	flex-flow: row nowrap;
-}
-
-.container img{
-
-	padding-right: 2em;
-	height: 160px;
-	width: 160px;
-
+	justify-content: space-around;
+	width: 80%;
+	margin: 1% 0 1% 10%;
+	align-items: center;
 }
 
 
 footer {
 	background-color: #333333;
 	color: white;
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.imgSur{
+	border: 1px dashed white;
+}
+
+.content{
+	width: 25%;
+}
+.content p{
+	border: 1px dotted white;
+	padding: 5% 5% 5% 5%;
+}
+
+.scrollRev ul{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap-reverse;
+	flex-direction: row-reverse;
 }
