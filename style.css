@@ -1,0 +1,75 @@
+body {
+	background-color: #222222;
+}
+
+
+li {
+	list-style: none;
+}
+
+.header {
+	display: flex;
+	flex-flow: row nowrap;
+	background-color: #333333;
+	border: 1px solid green;
+
+
+}
+
+.header img {
+
+
+	height: 50px ;
+	width: auto;
+	border-style: groove;
+	
+}
+
+.logo{
+	width: 50%;
+
+}
+
+
+.hyrule {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	border-style: groove;
+	width: 50%;
+
+}
+
+.hyrule a{
+	color: white;
+	text-decoration: none;
+	
+}
+
+.barre-haut{
+	display: flex;
+	justify-content: center;
+}
+
+.scroll {
+	overflow: scroll;
+}
+
+.container{
+	display: flex;
+	flex-flow: row nowrap;
+}
+
+.container img{
+
+	padding-right: 2em;
+	height: 160px;
+	width: 160px;
+
+}
+
+
+footer {
+	background-color: #333333;
+	color: white;
+}
